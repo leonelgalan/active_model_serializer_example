@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "posts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "excerpt": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "excerpt"
+        ]
+      }
+    }
+  },
+  "required": [
+    "posts"
+  ]
+}

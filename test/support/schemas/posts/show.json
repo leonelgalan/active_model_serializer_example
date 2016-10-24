@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "post": {
+      "type": "object",
+      "properties": {
+        "debug": {
+          "type": "boolean"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "debug",
+        "id",
+        "title",
+        "excerpt",
+        "content"
+      ]
+    }
+  },
+  "required": [
+    "post"
+  ]
+}
